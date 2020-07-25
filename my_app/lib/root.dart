@@ -31,8 +31,8 @@ class _RootWidgetState extends State<RootWidget> {
     Home(),
     Talk(),
     Timeline(),
-    News(),
-    Wallet(),
+    //News(),
+    //Wallet(),
   ];
 
   @override
@@ -60,18 +60,6 @@ class _RootWidgetState extends State<RootWidget> {
                 Icons.access_time,
               ),
               title: Text('タイムライン'),
-            ),
-            BottomNavigationBarItem(
-              icon: Icon(
-                Icons.content_paste,
-              ),
-              title: Text('ニュース'),
-            ),
-            BottomNavigationBarItem(
-              icon: Icon(
-                Icons.work,
-              ),
-              title: Text('ウォレット'),
             ),
           ],
           currentIndex: _selectedIndex,
