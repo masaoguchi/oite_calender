@@ -45,21 +45,21 @@ class _RootWidgetState extends State<RootWidget> {
           items: const [
             BottomNavigationBarItem(
               icon: Icon(
-                Icons.home,
+                Icons.person,
               ),
-              title: Text('ホーム'),
+              title: Text('マイページ'),
             ),
             BottomNavigationBarItem(
               icon: Icon(
-                Icons.textsms,
+                Icons.library_add,
               ),
-              title: Text('トーク'),
+              title: Text('参考書登録'),
             ),
             BottomNavigationBarItem(
               icon: Icon(
-                Icons.access_time,
+                Icons.library_books,
               ),
-              title: Text('タイムライン'),
+              title: Text('参考書一覧'),
             ),
           ],
           currentIndex: _selectedIndex,

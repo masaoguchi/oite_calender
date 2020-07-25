@@ -5,7 +5,7 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('ホーム'),
+        title: const Text('マイページ'),
         backgroundColor: Colors.green,
         leading: Padding(
           padding: const EdgeInsets.all(8.0),
