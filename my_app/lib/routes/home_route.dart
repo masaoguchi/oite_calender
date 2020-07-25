@@ -20,7 +20,7 @@ class Home extends StatelessWidget {
         centerTitle: true,
       ),
       body: Center(
-        child: Text('ホーム'),
+        child: Text('マイページ'),
       ),
     );
   }

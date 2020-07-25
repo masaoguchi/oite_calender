@@ -5,7 +5,7 @@ class Timeline extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('タイムライン'),
+        title: const Text('参考書一覧'),
         backgroundColor: Colors.green,
         leading: Padding(
           padding: const EdgeInsets.all(8.0),
@@ -20,7 +20,7 @@ class Timeline extends StatelessWidget {
         centerTitle: true,
       ),
       body: Center(
-        child: Text('タイムライン'),
+        child: Text('参考書一覧'),
       ),
     );
   }
