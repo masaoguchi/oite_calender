@@ -7,10 +7,10 @@ class Timeline extends StatelessWidget {
       appBar: AppBar(
         title: const Text('参考書一覧'),
         backgroundColor: Colors.green,
-        leading: Padding(
-          padding: const EdgeInsets.all(8.0),
-          child: Icon(Icons.settings),
-        ),
+//        leading: Padding(
+//          padding: const EdgeInsets.all(8.0),
+//          child: Icon(Icons.settings),
+//        ),
         actions: <Widget>[
           Padding(
             padding: const EdgeInsets.all(8.0),
@@ -19,8 +19,8 @@ class Timeline extends StatelessWidget {
         ],
         centerTitle: true,
       ),
-      body: Center(
-        child: Text('参考書一覧'),
+      body: Container(
+        child: Text("参考書一覧"),
       ),
     );
   }
