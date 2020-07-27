@@ -51,7 +51,7 @@ class Timeline extends StatelessWidget {
                     width: 90,
                     height: 150,
                     child: Text(
-                      "小論文",
+                      "Card1",
                       style: TextStyle(fontSize: 25),
                     ),
                   ),
@@ -62,7 +62,7 @@ class Timeline extends StatelessWidget {
                     width: 90,
                     height: 150,
                     child: Text(
-                      "小論文",
+                      "Card2",
                       style: TextStyle(fontSize: 25),
                     ),
                   ),
@@ -73,7 +73,7 @@ class Timeline extends StatelessWidget {
                     width: 90,
                     height: 150,
                     child: Text(
-                      "数ⅡB",
+                      "Card3",
                       style: TextStyle(fontSize: 25),
                     ),
                   ),
@@ -102,7 +102,7 @@ class Timeline extends StatelessWidget {
                     width: 90,
                     height: 150,
                     child: Text(
-                      "関係代名詞　2章1節",
+                      "Card1",
                       style: TextStyle(fontSize: 25),
                     ),
                   ),
@@ -113,7 +113,7 @@ class Timeline extends StatelessWidget {
                     width: 90,
                     height: 150,
                     child: Text(
-                      "小論文　3章3節",
+                      "Card2",
                       style: TextStyle(fontSize: 25),
                     ),
                   ),
@@ -124,7 +124,7 @@ class Timeline extends StatelessWidget {
                     width: 90,
                     height: 150,
                     child: Text(
-                      "数ⅡB 数列 1章1節",
+                      "Card3",
                       style: TextStyle(fontSize: 25),
                     ),
                   ),

@@ -7,15 +7,16 @@ import 'routes/sign_in_routes.dart';
 import 'routes/talk_route.dart';
 import 'routes/timeline_route.dart';
 
-class RootWidget extends StatefulWidget {
-  const RootWidget({Key key}) : super(key: key);
+class RootWidget_2 extends StatefulWidget {
+  const RootWidget_2({Key key}) : super(key: key);
 
   @override
-  _RootWidgetState createState() => _RootWidgetState();
+  _RootWidgetState_2 createState() => _RootWidgetState_2();
 }
 
-class _RootWidgetState extends State<RootWidget> {
-  int _selectedIndex = 0;
+// ignore: camel_case_types
+class _RootWidgetState_2 extends State<RootWidget_2> {
+  int _selectedIndex = 1;
 
   void _onItemTapped(int index) {
     setState(() {
